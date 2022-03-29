@@ -149,6 +149,7 @@
     <ClCompile Include="src\Star.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\FPSTimer.h" />
     <ClInclude Include="src\Star.h" />
     <ClInclude Include="src\Utils.h" />
   </ItemGroup>
