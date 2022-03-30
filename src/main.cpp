@@ -57,6 +57,11 @@ int main()
 		sf::Vector2i mousePosition = sf::Mouse::getPosition(window);
 		sf::Event windowEvent;
 
+		if (mousePosition.x <= 0)
+		{
+			mousePosition.x = 0;
+		}
+
 		float speed = Utils::map(mousePosition.x, -60, window.getSize().x, 0, 20);
 
 		window.clear(sf::Color::Black);
